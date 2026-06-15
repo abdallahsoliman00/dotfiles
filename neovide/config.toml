@@ -1,0 +1,6 @@
+[font]
+normal = ["JetBrainsMono Nerd Font"]
+size = 14
+
+[font.features]
+"JetBrainsMono Nerd Font" = ["-calt"]

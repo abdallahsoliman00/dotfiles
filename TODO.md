@@ -1,0 +1,1 @@
+- Create a script to run on any device that automatically installs these configurations in their correct places.

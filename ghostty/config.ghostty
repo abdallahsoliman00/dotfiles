@@ -1,0 +1,8 @@
+custom-shader = shaders/cursor-smear.glsl
+custom-shader = shaders/bloom.glsl
+# custom-shader = shaders/cosmic-bg.glsl
+
+font-feature = -calt, -liga, -dlig
+cursor-style-blink = false
+keybind = ctrl+backspace=text:\x17
+keybind = ctrl+shift+f=toggle_fullscreen
