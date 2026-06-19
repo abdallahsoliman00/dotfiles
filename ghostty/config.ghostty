@@ -1,4 +1,5 @@
 custom-shader = shaders/cursor-smear.glsl
+# custom-shader = shaders/northern-lights.glsl
 # custom-shader = shaders/bloom.glsl
 # custom-shader = shaders/cosmic-bg.glsl
 
@@ -9,6 +10,10 @@ keybind = ctrl+backspace=text:\x17
 keybind = ctrl+shift+f=toggle_fullscreen
 keybind = ctrl+shift+n=unbind
 keybind = ctrl+alt+n=new_window
+keybind = ctrl+==unbind
+keybind = ctrl+-=unbind
+keybind = ctrl+shift+==increase_font_size:1
+keybind = ctrl+shift+-=decrease_font_size:1
 
 # theme = Catppuccin Mocha
 # theme = Carbonfox
