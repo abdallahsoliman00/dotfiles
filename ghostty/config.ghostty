@@ -17,4 +17,5 @@ keybind = ctrl+shift+-=decrease_font_size:1
 
 # theme = Catppuccin Mocha
 # theme = Carbonfox
+# theme = TokyoDark
 theme = TokyoNight Night

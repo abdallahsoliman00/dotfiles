@@ -25,7 +25,7 @@
 
 #define time iTime
 
-const float OPACITY = 0.025;
+const float OPACITY = 0.25;
 
 mat2 mm2(in float a){float c = cos(a), s = sin(a);return mat2(c,s,-s,c);}
 mat2 m2 = mat2(0.95534, 0.29552, -0.29552, 0.95534);
