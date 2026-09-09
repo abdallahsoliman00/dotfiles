@@ -120,7 +120,7 @@ if ! shopt -oq posix; then
 fi
 
 # opencode
-export PATH=/home/abdallah/.opencode/bin:$PATH
+# export PATH=$HOME/.opencode/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -136,9 +136,9 @@ confignvim() {
   fi
 
   if [[ "$1" == "-p" ]]; then
-    cd /home/abdallah/.config/nvim
+    cd $HOME/.config/nvim
   else
-    cd /home/abdallah/.config/nvim && nvim
+    cd $HOME/.config/nvim && nvim
   fi
 }
 
