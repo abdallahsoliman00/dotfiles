@@ -143,3 +143,4 @@ confignvim() {
 }
 
 PROMPT_COMMAND='printf "\e[6 q"'
+EDITOR=nvim
